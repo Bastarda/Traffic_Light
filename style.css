@@ -1,0 +1,40 @@
+body>div{
+  background-color: #F8BBD0;
+}
+div>div{
+  
+}
+.outer{
+    text-align: center;
+}
+
+.block{
+  margin: 20px;
+  left: 100px;
+  height: 600px;
+  width: 20%;
+  background: #80DEEA;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+
+.light{
+  border-radius: 100%;
+  background: #1DE9B6;
+  width: 150px;
+  height: 150px;
+  margin: 30px  auto;
+}
+
+.block:nth-of-type(1):hover > div.light:nth-of-type(1){
+  background-color:#F44336;
+}
+
+.block:nth-of-type(2):hover > div.light:nth-of-type(2){
+  background-color:#FFEB3B;
+}
+
+.block:nth-of-type(3):hover > div.light:nth-of-type(3){
+  background-color:#64DD17;
+}
